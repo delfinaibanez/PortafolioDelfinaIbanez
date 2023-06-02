@@ -14,6 +14,10 @@ body{
      font-family: 'Quicksand', sans-serif;
    color: white;
    background-color: #18122B;;
+   background-image: url('imagenes/esferas-fondo.jpg' );
+   background-size: cover;
+   background-position: center;
+   overflow-y: hidden; /* saca barra derecha*/
 }
 
 /*ICONO ENCABEZADO */
@@ -23,12 +27,23 @@ body{
      position: relative;
      padding-left: 3%;
      top: 5%;
-     color: violet;
+     color: white;
+
 
 }
 
-/*IMAGEN ENCABEZADO */
 
+/* ENCABEZADO */
+.transparente-boton {
+  position: relative;
+  top: 50%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+}
 /* MENU Y  HOVER  */
 
 
@@ -65,9 +80,9 @@ span{
      height: 2px;
      bottom: 0;
      left: 0;
-     background-color :violet;
+     background-color :white;
      transform-origin: bottom right;
-     transition: transform 0.25s ease-out;
+     transition: transform 0.55s ease-out;
    }
    
    .hover-underline-animation:hover::after {
@@ -99,15 +114,18 @@ top: 10%;
 align-items: center;
 padding-left: 2%;
 font-size: 30px;
-color: #635985;
+}
+.BloqueIconos a{
+  color: white;
 }
 
 .BloqueIconos i :active{
-     color: #635985;
+     color: white;
 }
 
 .BloqueIconos i {
      padding: 20px;
 }
 
-   
+
+ 
