@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html{
+     height: 100%;
+}
+body{
+     height: 100%;
+     border: 5px;
+     font-family: 'Quicksand', sans-serif;
+   color: white;
+   background-color: #18122B;;
+}
+
+/*ICONO ENCABEZADO */
+.Icono_encabezado{
+
+     font-size: 55PX;
+     position: relative;
+     padding-left: 3%;
+     top: 5%;
+     color: violet;
+
+}
+
+/*IMAGEN ENCABEZADO */
+
+/* MENU Y  HOVER  */
+
+
+.Menu{
+    text-align: right;
+    padding-right: 15%;
+  position: relative;
+  bottom: -30%;
+  color: white;
+ 
+}
+.Menu li {
+  font-size: 20px;
+  padding: 10px;
+  
+
+}
+span{
+     color: #635985;
+}
+
+/* hover interativo*/
+.hover-underline-animation {
+     display: inline-block;
+     position: relative;
+     color: white;
+   }
+
+   .hover-underline-animation::after {
+     content: '';
+     position: absolute;
+     width: 100%;
+     transform: scaleX(0);
+     height: 2px;
+     bottom: 0;
+     left: 0;
+     background-color :violet;
+     transform-origin: bottom right;
+     transition: transform 0.25s ease-out;
+   }
+   
+   .hover-underline-animation:hover::after {
+     transform: scaleX(1);
+     transform-origin: bottom left;
+   }
+.habilidades p{
+     font-size: 15px;
+     position: relative;
+     text-align: left;
+     padding-left: 10%;
+     color: white;
+     top: -170px;
+}   
+.habilidades h1 {
+     position: relative;
+     font-size: 50px;
+     text-align: left;
+     padding-left: 10%;
+     color: white;
+     top: -170px;
+}
+
